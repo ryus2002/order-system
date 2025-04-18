@@ -1,0 +1,19 @@
+高併發訂單處理系統
+目標：設計能處理突發大流量的訂單系統
+24小時內可實現：
+
+使用Redis實作分散式鎖防止超賣
+實作Kafka消息隊列處理訂單
+設計DB讀寫分離架構
+建立訂單狀態機制與自動化處理流程
+提供簡易壓力測試報告
+為何適合：展示在愛酷智能科技處理高流量的經驗
+
+請使用php laravel實作，使用docker
+目前已有這些docker：
+laradock-nginx-1
+laradock-workspace-1
+laradock-mysql-1
+laradock-redis-1
+
+Laravel版本為12
